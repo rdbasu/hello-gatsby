@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Part of the { Hello } World Series`,
         java: `JAVA`,
-        header: `Software Engineering NO` 
+        header: `Software Engineering` 
     },
     plugins: [
         {

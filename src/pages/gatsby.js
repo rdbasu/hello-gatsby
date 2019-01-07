@@ -6,6 +6,16 @@ import { Link } from "gatsby"
 export default () => (
   <Layout>
     <h1>GATSBYJS</h1>
+    <h2>Gatsby is a blazing fast modern <i>site generator for React</i>.</h2>
+
+    <h3>Gatsby.js is a modern site generator, which means there are no servers to setup or complicated databases to deploy. Instead, the Gatsby build command produces a directory of static HTML and JavaScript files which you can deploy to a static site hosting service.</h3>
+
+    <h4>Create a Gatsby site</h4>
+    <code>gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+    </code>
+    <hr />
+    <code>gatsby develop</code>
+    <hr />
     <h4>Gatsby data layer, which is a powerful feature of Gatsby that lets you easily build sites from Markdown, WordPress, headless CMSs, and other data sources of all flavors.</h4>
     <ul>
       <li>Use a page query</li>
