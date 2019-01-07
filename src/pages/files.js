@@ -17,9 +17,9 @@ export default ({ data }) => {
                     <tbody>
                         {data.allFile.edges.map(({ node }, index) => (
                             <tr key={index}>
+                                <td>{node.absolutePath}</td>
                                 <td>{node.relativePath}</td>
-                                <td>{node.size}</td>
-                                <td>{node.extension}</td>
+                                <td>{node.id}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -34,8 +34,12 @@ export const query = graphql`
         allFile {
             edges {
               node {
-                relativePath,
-                size,
+                id,
+                absolutePath
+                relativePath
+                parent {
+                  id
+                }
                 extension
               }
             }
