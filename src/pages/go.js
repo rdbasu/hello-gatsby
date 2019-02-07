@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 
 export default ({ data }) => (
   <Layout>
-    <h1>Go is awesome</h1>
+    <h1>Go is NOT SO awesome</h1>
     <Header headerText={data.site.siteMetadata.java} />
   </Layout>
 )
