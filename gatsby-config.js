@@ -1,7 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `Part of the { Hello } World Series`,
-        java: `JAVA`,
+        title: `Next Generation Developer Portal`,
+        java: `Docs`,
+        sdks: `SDKs`,
         header: `Software Engineering YES` 
     },
     plugins: [

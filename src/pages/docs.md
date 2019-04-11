@@ -1,5 +1,5 @@
 ---
-title: "This is the JAVA markdown"
+title: "This is the Docs markdown"
 ---
 
 # This is JAVA markdown

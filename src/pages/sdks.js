@@ -5,8 +5,7 @@ import { graphql } from "gatsby"
 
 export default ({ data }) => (
   <Layout>
-    <h1>Go is NOT SO awesome</h1>
-    <Header headerText={data.site.siteMetadata.java} />
+    <Header headerText={data.site.siteMetadata.sdks} />
   </Layout>
 )
 export const query = graphql`
@@ -14,7 +13,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title,
-        java
+        sdks
       }
     }
   }

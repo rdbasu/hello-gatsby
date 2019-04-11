@@ -19,7 +19,7 @@ export default ({ data }) => {
                             <tr key={index}>
                                 <td>{node.absolutePath}</td>
                                 <td>{node.relativePath}</td>
-                                <td>{node.id}</td>
+                                <td>{node.size}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -40,7 +40,8 @@ export const query = graphql`
                 parent {
                   id
                 }
-                extension
+                extension,
+                size
               }
             }
           }

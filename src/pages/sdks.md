@@ -1,5 +1,5 @@
 ---
-title: "This is the GO markdown"
+title: "This is the SDKs markdown"
 ---
 
 # This is Line 1 GO

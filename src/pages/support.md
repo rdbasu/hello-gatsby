@@ -1,5 +1,5 @@
 ---
-title: "This is the JAVASCRIPT markdown"
+title: "This is the Support markdown"
 ---
 
 # This is JAVASCRIPT markdown

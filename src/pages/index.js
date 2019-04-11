@@ -5,9 +5,7 @@ import { graphql } from "gatsby"
 export default ({ data }) => (
 
   <Layout> 
-    <h1>Software Engineering</h1>
-    {/* <h1>{data.site.siteMetadata.title}</h1> */}
-
+    <h1>Developer Portal</h1>
     <h4>
       {data.allMarkdownRemark.totalCount} markdown files
     </h4>
